@@ -94,6 +94,8 @@ const append = (arr1, arr2) => {
   })
 };
 
+// n.b. another possibility is to do "while(arr2.length) { arr1.push(arr2.shift());}"" - because shift() removes and returns the first element in the array
+
 /* ------------------------------------------------------------------------------------------------
 TESTS
 
