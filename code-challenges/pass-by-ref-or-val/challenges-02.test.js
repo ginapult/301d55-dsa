@@ -10,10 +10,19 @@ Write a function that appends ' The end.' to a string, and returns the modified 
 
 const appendTheEnd = (str) => {
   // Solution code here...
+<<<<<<< HEAD
+  str = str + ' The end.';
+  return str;
+};
+
+// const appendTheEnd = (str) => str + ' The end.';
+
+=======
   let modStr = str + ' The end.';
   return modStr;
 };
 
+>>>>>>> 9b8b474a0234a021ce38ca1304e927b7746e3e7a
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -92,10 +101,20 @@ const append = (arr1, arr2) => {
   arr2.forEach( value => {
     arr1.push(value);
   })
+<<<<<<< HEAD
+
+  // while(arr2.length) {
+  //   arr1.push(arr2.shift());
+  // }
+
+};
+
+=======
 };
 
 // n.b. another possibility is to do "while(arr2.length) { arr1.push(arr2.shift());}"" - because shift() removes and returns the first element in the array
 
+>>>>>>> 9b8b474a0234a021ce38ca1304e927b7746e3e7a
 /* ------------------------------------------------------------------------------------------------
 TESTS
 
@@ -154,4 +173,8 @@ describe('Testing challenge 5', () => {
 
     expect(a).toStrictEqual([1, 2, 3, 4, 5, 6, 7, 8]);
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 9b8b474a0234a021ce38ca1304e927b7746e3e7a
